@@ -9,7 +9,7 @@ application = app
 @app.get("/")
 def index():
     identifier = os.environ.get("CUSTOM_IDENTIFIER", "${custom_identifier}")
-    return f"Hello from {identifier}!"
+    return f"Hello from 2dfktx7p!"
 
 
 @app.get("/health")
